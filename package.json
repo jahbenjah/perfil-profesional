@@ -1,5 +1,5 @@
 {
-    "title": "Profesional",
+    "title": "perfil-profesional",
     "name": "perfil-profesional",
     "version": "1.0.0",
     "scripts": {
@@ -14,7 +14,7 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/freelancer",
+    "homepage": "https://aspnetcoremaster.com",
     "bugs": {
         "url": "https://github.com/jahbenjah/perfil-profesional/issues",
         "email": "benjamin@aspnetcoremaster.com"
@@ -22,8 +22,7 @@
     "license": "MIT",
     "author": "Benjamin Camacho",
     "contributors": [
-        "David Miller (http://davidmiller.io/)",
-        "Benjamin Camacho (http://davidmiller.io/)"
+        "Benjamín Camacho (http://davidmiller.io/)"
     ],
     "repository": {
         "type": "git",
