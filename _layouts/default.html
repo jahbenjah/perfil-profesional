@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es-mx">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,14 +13,9 @@
         type="text/css">
     <!-- Theme CSS -->
     <link href="css/freelancer.min.css" rel="stylesheet">
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-    <script>
-        window['ga-disable-{{ site.google_analytics }}'] = window.doNotTrack === "1" || navigator.doNotTrack === "1" || navigator.doNotTrack === "yes" || navigator.msDoNotTrack === "1";
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
-    </script>
+    {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+    {%- endif -%}
 </head>
 
 <body id="page-top">
